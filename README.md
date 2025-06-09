@@ -12,6 +12,7 @@ This is a custom Linux kernel module that implements a **character device-based 
 .
 ├── logging_driver.c     # Main kernel module source code
 ├── Makefile             # For building the module
+|--readLogs.c            #to store logs in .txt file
 ├── README.md            # You're reading it!
 ## for compile and run
 1.BUILD THE MODULE
